@@ -56,17 +56,17 @@
   "environment": {
 
     "showvisualise": true,
-    "scope": "docker run --name=scope -d --net=host --pid=host --privileged -v /var/run/docker.sock:/var/run/docker.sock:rw weaveworks/scope:1.9.1 --probe.docker=true",
+    "scope": "docker run --name=scope -d --net=host --pid=host --privileged -v /var/run/docker.sock:/var/run/docker.sock:rw weaveworks/scope:latest --probe.docker=true",
     "scopePort": 4040,
-    "uilayout": "vscode-terminal-split",
+    "showide": true,
     "terminals": [{"name": "Terminal 1", "target": "host01"},
                 {"name": "Docker Stats", "command": "docker stats", "target": "host01"}],
     "showdashboard": true,
     "dashboards": [{"name": "URL", "href": "https://github.com/rajib2github/angular-app-kubernates"},
         {"name": "Port 80", "port": 80},
-        {"name": "Pit Shop WebUI", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"},
-        {"name": "Log UI", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"},
-        {"name": "RabbitMQ UI", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}
+        {"name": "Pit Shop WebUI", "href": "https://[[HOST_SUBDOMAIN]]-7000-[[KATACODA_HOST]].environments.katacoda.com"},
+        {"name": "Log UI", "href": "https://[[HOST_SUBDOMAIN]]-5341-[[KATACODA_HOST]].environments.katacoda.com"},
+        {"name": "RabbitMQ UI", "href": "https://[[HOST_SUBDOMAIN]]-15672-[[KATACODA_HOST]].environments.katacoda.com"}
         ]
   },
   "backend": {

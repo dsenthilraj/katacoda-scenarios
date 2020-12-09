@@ -3,6 +3,8 @@
 1. Visit https://github.com/rajib2github/pitshop-microservices/ to view PitShop Microservice
 if You want to run pitshop  execute following
 `git clone  https://github.com/rajib2github/pitshop-microservices`{{execute}}
+This tutorial is based on Pitshop only
+
 
 2. https://github.com/suadev/dotnet-istanbul-microservices-demo Another Event Driven Microservice
 if You want to run Product  execute following
