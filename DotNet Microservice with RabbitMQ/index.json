@@ -32,7 +32,7 @@
   "environment": {
 
     "showvisualise": true,
-    "scope": "docker run --name=scope -d --net=host --pid=host --privileged -v /var/run/docker.sock:/var/run/docker.sock:rw weaveworks/scope:latest --probe.docker=true",
+    "scope": "docker run --name=scope -d --net=host --pid=host --privileged -v /var/run/docker.sock:/var/run/docker.sock:rw weaveworks/scope:1.11.4 --probe.docker=true",
     "scopePort": 4040,
     "uieditorpath": "/root/example",
     "showide": true,
