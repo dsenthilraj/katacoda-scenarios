@@ -20,3 +20,16 @@ if You want to run eShoponContainers  execute following
 `git clone  https://github.com/dotnet-architecture/eShopOnContainers`{{execute}}
 
 Verify source course is downloaded . IDE will pickup the changes.
+
+
+Goto Pitshop-Microservice\src
+Open Docker-compose.yml file 
+Search for microsoft/mssql-server-linux:latest (line 17)
+Replace with  justin2004/mssql_server_tiny
+
+mssqlserver some reason looking for 2GB memory space. Otherwise it fails. Local machine it is easy to increase the memory
+Unix mssql_server_tiny image is a wrapper around SQLServer docker ignores 2GB check. More about this 
+https://github.com/justin2004/mssql_server_tiny
+
+Issue is discussed here.
+https://github.com/Microsoft/mssql-docker/issues/114
