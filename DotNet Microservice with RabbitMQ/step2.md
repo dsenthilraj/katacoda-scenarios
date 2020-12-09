@@ -11,7 +11,7 @@ Run `docker-compose build`{{execute}}
 
 It will take time once it is completed rum docker images to see  the result
 
-`docker  images` {{execute}}
+`docker  images`{{execute}}
 
 Run all the services execute docker-compose up
 
