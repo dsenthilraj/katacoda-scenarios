@@ -1,8 +1,8 @@
 #Download Any Microservice from GitHub or use One of the Following for Demo
 
-1. Visit https://github.com/rajib2github/angular-app-kubernates to view PitShop Microservice
+1. Visit https://github.com/rajib2github/pitshop-microservices/ to view PitShop Microservice
 if You want to run pitshop  execute following
-`git clone  https://github.com/rajib2github/angular-app-kubernates`{{execute}}
+`git clone  https://github.com/rajib2github/pitshop-microservices`{{execute}}
 
 2. https://github.com/suadev/dotnet-istanbul-microservices-demo Another Event Driven Microservice
 if You want to run Product  execute following
