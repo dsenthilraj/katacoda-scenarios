@@ -30,8 +30,8 @@
     "idePort": 23000,
     "uilayout": "terminal",
     "terminals": [{"name": "Terminal 1", "target": "host01"},
-                  {"name": "Terminal 1", "target": "host02"},
-                {"name": "Docker Stats", "command": "docker stats", "target": "host03"}]
+                  {"name": "Terminal 2", "target": "host02"},
+                {"name": "Docker stats", "command": "docker stats", "target": "host03"}]
    
    
   },
